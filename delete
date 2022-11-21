@@ -1,1 +1,2 @@
 git push heroku main
+heroku restart
