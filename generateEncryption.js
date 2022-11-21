@@ -1,6 +1,6 @@
 const axios = require("axios");
 const moment = require("moment");
-const { faker } = require("@faker-js/faker");
+// const { faker } = require("@faker-js/faker");
 
 const baseUrl = "https://seerbitapi.com/api/v2";
 
