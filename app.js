@@ -10,9 +10,9 @@ const {
 } = require("./generateEncryption");
 
 const {
-	userCreator,
-	fakeCoordinatesGenerator,
-	deleteAll,
+	// userCreator,
+	// fakeCoordinatesGenerator,
+	// deleteAll,
 	howManyUsers,
 } = require("./src/helpers");
 
