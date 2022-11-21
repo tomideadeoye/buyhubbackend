@@ -139,6 +139,10 @@ app.get("/virtualAccount", (req, res) => {
 	createVirtualAccount();
 });
 
+app.get("/", (req, res) => {
+	res.send("Welcome to the API");
+});
+
 // update users
 app.post("/update/:username", async (req, res) => {
 	const update = {
